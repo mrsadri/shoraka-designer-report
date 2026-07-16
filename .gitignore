@@ -1,0 +1,23 @@
+# ============================================================
+#  CONFIDENTIAL — plaintext sources must NEVER be committed.
+#  Only the ENCRYPTED payloads under data/ are published.
+# ============================================================
+
+# Plaintext candidate files (original PDFs) — local only
+files/
+*.pdf
+
+# Plaintext report body — local only (encrypted into data/payload.js)
+src/report.html
+
+# ...but DO publish the encrypted payloads:
+!data/
+!data/**
+
+# OS / editor cruft
+.DS_Store
+.remember/
+Thumbs.db
+*.swp
+.idea/
+.vscode/

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" class="locked">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>دسترسی محدود — گزارش محرمانه</title>
+<link rel="stylesheet" href="assets/styles.css">
+<script src="data/payload.js"></script>
+<script src="assets/crypto.js" defer></script>
+</head>
+<body>
+
+<div id="gate" role="dialog" aria-modal="true" aria-labelledby="gate-title">
+  <form id="gate-form" class="gate-box" autocomplete="off">
+    <div class="gate-lock">🔒</div>
+    <h2 id="gate-title">دسترسی محدود</h2>
+    <p class="gate-sub">این گزارش محرمانه و رمزنگاری‌شده است. برای رمزگشایی و مشاهده، رمز عبور را وارد کنید.</p>
+    <input id="gate-input" type="password" inputmode="text"
+           placeholder="رمز عبور" aria-label="رمز عبور" autofocus />
+    <button type="submit" class="gate-btn">رمزگشایی و ورود</button>
+    <p id="gate-error" class="gate-error" role="alert" aria-live="assertive"></p>
+    <noscript>
+      <p class="gate-error">برای مشاهدهٔ این گزارش باید جاوااسکریپت فعال باشد.</p>
+    </noscript>
+  </form>
+</div>
+
+<main id="report"><!-- محتوای رمزنگاری‌شده پس از ورود رمز اینجا بارگذاری می‌شود --></main>
+
+</body>
+</html>
