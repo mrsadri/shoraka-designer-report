@@ -45,6 +45,13 @@
   }
   .gate-btn:hover{background:#0B6A5B;}
   .gate-error{font-size:11px;color:#B4442E;margin-top:10px;min-height:1em;}
+  .gate-help{
+    font-size:10.5px;line-height:1.9;color:#68767D;
+    margin-top:12px;padding-top:12px;border-top:1px solid #E4E7E2;
+  }
+  .gate-help a{color:#0E7C6B;font-weight:700;text-decoration:none;}
+  .gate-help a:hover{text-decoration:underline;}
+  .gate-help b{color:#20313A;font-weight:700;}
   body{
     font-family:'Vazirmatn',Tahoma,'Segoe UI',sans-serif;
     color:var(--ink);
